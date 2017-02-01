@@ -1,13 +1,11 @@
-title: Home
+title: Welcome to Skel
 author: Kael Shipman
 contentClass: page
 dateCreated: 2017-01-15
 
-### Welcome to Skel
-
 Skel is a library of standard PHP component interfaces that can be used by developers to build interoperable components and application frameworks. Its primary initial goal was to allow me to build my own custom application framework, but in a way that would allow others to a) easily understand and contribute to my projects, and b) use parts of my projects with their own or other third party implementations of the other parts. Thus, primarily, it is meant to be a way that developers can agree on how certain components should interact without forcing each other to use specific implementations of those components.
 
-There's actually another project with this very same goal: [PHP-FIG](http://www.php-fig.org/), and more specifically FIG's [PHP Standards Recommendations](http://www.php-fig.org/psr/). While I applaud this development and am excited to someday to contribute to it, I personally wanted a sort of proving ground first. The process of standards development is long and highly bureaucratic. I needed a way to both quickly publish my best shot at some really unexciting interfaces (i.e., stuff that it's unlikely others would really care that much about), and also mash my interface proposals around in real-world use-cases to see if they were the best way forward before suggesting them as standards.
+There's actually another project with this very same goal: [PHP-FIG](http://www.php-fig.org/){target=_blank}, and more specifically FIG's [PHP Standards Recommendations](http://www.php-fig.org/psr/){target=_blank}. While I applaud this development and am excited to someday to contribute to it, I personally wanted a sort of proving ground first. The process of standards development is long and highly bureaucratic. I needed a way to both quickly publish my best shot at some really unexciting interfaces (i.e., stuff that it's unlikely others would really care that much about), and also mash my interface proposals around in real-world use-cases to see if they were the best way forward before suggesting them as standards.
 
 Thus, I conceived Skel as a sort of "beta world" for my own personal proposals to PHP-FIG PSRs, and I'm publishing it in a way that will allow others to use it, add to it, and change it.
 
@@ -25,5 +23,5 @@ Skel is meant to be a dumping ground for interface prototypes. The idea is that 
 
 What I dream is that programmers **always use interfaces**, and that those interfaces at least start their lives in Skel, so that we may have a standard and updateable interface library to work with moving forward. Eventually, these interfaces should all move to PSR, but until they do, I want easy access to them.
 
-With that in mind, feel free to fork and modify the official [github repo](https://github.com/kael-shipman/skelphp-header). Also, note that there are a number of other "skelphp\*" sibling repos in my account. These are my own implementations of the Skel interfaces and are what I consider the "official" implementations, from which I've built the Skel Framework. You can also feel free to fork and create pull requests for these, but the point of Skel is not so much to make you use my implementations, but to allow you to make your own implementations and still have them be compatible with mine.
+With that in mind, feel free to fork and modify the official [github repo](https://github.com/kael-shipman/skelphp-header){target=_blank}. Also, note that there are a number of other "skelphp\*" sibling repos in my account. These are my own implementations of the Skel interfaces and are what I consider the "official" implementations, from which I've built the Skel Framework. You can also feel free to fork and create pull requests for these, but the point of Skel is not so much to make you use my implementations, but to allow you to make your own implementations and still have them be compatible with mine.
 
