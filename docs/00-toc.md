@@ -1,4 +1,7 @@
-#### Table of Contents
+title: Table of Contents
+contentClass: page
+dateCreated: 2017-01-25
+author: Kael Shipman
 
 ##### Chapter 1: Conceptual Overview
 
