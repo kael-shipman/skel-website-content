@@ -5,11 +5,7 @@ author: Kael Shipman
 
 ### What is Skel?
 
-Skel is a library of standard PHP component interfaces that can be used by developers to build interoperable components and application frameworks. Its primary initial goal was to allow me to build my own custom application framework, but in a way that would allow others to a) easily understand and contribute to my projects, and b) not get locked into my framework. Thus, primarily, it is meant to be a way that developers can agree on how certain components should interact without forcing each other to use specific implementations of those components.
-
-There's actually another project with this very same goal: [PHP-FIG](http://www.php-fig.org/){target=_blank}, and more specifically FIG's [PHP Standards Recommendations](http://www.php-fig.org/psr/){target=_blank}. While I applaud this development and am excited to someday to contribute to it, I personally wanted a sort of proving ground first. The process of standards development is long and highly bureaucratic. I needed a way to both quickly publish my best shot at some really unexciting interfaces (i.e., stuff that it's unlikely others would really care that much about), and also mash my interface proposals around in real-world use-cases to see if they were the best way forward before suggesting them as standards.
-
-Thus, I conceived Skel as a sort of "beta world" for my own personal proposals to PHP-FIG PSRs, and I'm publishing it in a way that will allow others to use it, add to it, and change it.
+##whatIsSkel##
 
 Skel can also be thought of as a meta framework -- that is, it is *not* a fully-built framework in itself so much as a set of interfaces that define the *interactions* between components of a framework. There is an official set of implementations of these interfaces, but they are not meant to be the focal point of Skel. Skel is meant to allow programmers to create their own reusable components and frameworks in a way that will be compatible with those of others. It is a common ground for component interactions, allowing each programmer to build a system that makes sense to him or her -- that he or she can trust and understand deeply -- without departing from a common set of agreed-upon component interactions.
 
